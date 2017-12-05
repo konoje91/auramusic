@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'FiraSans';
+    src: url('../fonts/FiraSans-Heavy.eot');
+    src: url('../fonts/FiraSans-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiraSans-Heavy.woff') format('woff'),
+    url('../fonts/FiraSans-Heavy.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FiraSans';
+    src: url('../fonts/FiraSans-Regular.eot');
+    src: url('../fonts/FiraSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FiraSans-Regular.woff') format('woff'),
+    url('../fonts/FiraSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans-Regular.eot');
+    src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Regular.woff') format('woff'),
+    url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+	font-family: FiraSans;
+	font-weight: 700;
+	font-size: 60px;
+	padding: 13px 0;
+	line-height: 86px;
+}
+
+.logo {
+	font-family: FiraSans;
+	font-weight: 700;
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: -10px;
+}
+
+.logo-title-text {
+	font-family: 'FiraSans';
+	font-weight: 400;
+	font-size: 15px;
+	color: #fff;
+}
+
+.button-order {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+	padding: 14px 37px;
+	color: #fff;
+	border: #fff solid 2px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.button-order:hover {
+	color: #0a052e;
+	background-color: #fff;
+}
+
+header {
+	background: url(../img/rectangle-copy.jpg) no-repeat;
+	background-size: cover;
+	height: 600px;  
+}
+
+.header-wrapper-nav {
+	padding-top: 40px;
+    padding-bottom: 40px;
+	height: 70px;
+}
+
+.separator {
+	flex-grow: 1;
+}
+
+.nav .nav-item:first-child {
+	padding-left: 62px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	padding: 0;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	margin-right: 35px;
+	text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #d90368;
+}
+
+@media (max-width: 991px) {
+	
+	.nav .nav-item:first-child {
+		padding-left: 0px; 
+	}
+	
+	.logotype {
+		order: 1;
+	}
+
+	.actions {
+		margin-left: 30px;
+		order: 2;
+	}
+
+	.separator {
+		order: 3;
+	}
+
+	.nav {
+		order: 4;
+	}
+}
+
+.header-wrapper-text {
+	padding-top: 43px;
+	color: #fff;
+}
+
+.header-wrapper-text p {
+	font-family: 'OpenSans';
+	font-size: 18px;
+	color: #f6f7f8;
+}
