@@ -146,6 +146,7 @@ header {
 
 .rooms {
 	background-color: #f6f7f8;
+	margin-bottom: 100px;
 }
 
 .rooms-wrapper {	
@@ -189,7 +190,7 @@ header {
 
 }
 
-.block-1-img, .block-2-img {
+.block-1-img, .block-2-img, .block-3-img, .block-4-img, .block-5-img, .block-6-img {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -210,7 +211,25 @@ header {
 	background-image: url(../img/rectangle-4.jpg);
 }
 
-.block-1-img:hover, .block-2-img:hover {
+.block-3-img {
+	background-image: url(../img/rectangle-7-copy-4.jpg);
+}
+
+
+.block-4-img {
+	background-image: url(../img/rectangle-8.jpg);
+}
+
+.block-5-img {
+	background-image: url(../img/rectangle-13-copy-4.jpg);
+}
+
+
+.block-6-img {
+	background-image: url(../img/rectangle-14.jpg);
+}
+
+.block-1-img:hover, .block-2-img:hover, .block-3-img:hover, .block-4-img:hover, .block-5-img:hover, .block-6-img:hover {
 	opacity: 1;
 }
 
@@ -237,14 +256,25 @@ header {
 		order: 4;
 	}
 
-	.block-2 {
+	.block-2, .block-4, .block-6 {
     	padding-top: 159.5%;
     }
 }
 
+.menu {
+	background: url(../img/rectangle-menu.jpg) no-repeat;
+	background-size: cover;
+	height: 600px; 
+	color: #f6f7f8; 
+}
+
+.menu .button-order {
+	margin-top: 120px;
+}
+
 @media (max-width: 766px) {
 
-	.block-2 {
+	.block-2, .block-4, .block-6 {
     	padding-top: 164.5%;
     }
 }
