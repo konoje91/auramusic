@@ -37,6 +37,7 @@ h1 {
 }
 
 h2 {
+	font-family: 'FiraSans';
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 58px;
@@ -221,7 +222,6 @@ header {
 }
 
 .shares h2 {
-	font-family: 'FiraSans';
 	font-weight: 700;
 	text-align: center;
 }
@@ -270,7 +270,6 @@ header {
 }
 
 .contacts h2 {
-	font-family: 'FiraSans';
 	font-weight: 700;
 	color: #0a052e;
 }
@@ -291,6 +290,12 @@ header {
 
 .contacts a {
 	color: #00a6fb;
+}
+
+.order {
+	background: url(../img/form.jpg) no-repeat;
+	background-size: cover;
+	height: 600px;  
 }
 
 @media (max-width: 991px) {
