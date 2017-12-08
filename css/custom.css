@@ -264,6 +264,35 @@ header {
 	text-align: center;
 }
 
+.contacts {
+	color: #0a052e;
+	padding: 120px 0;
+}
+
+.contacts h2 {
+	font-family: 'FiraSans';
+	font-weight: 700;
+	color: #0a052e;
+}
+
+.contacts p {
+	font-family: 'OpenSans';
+	font-weight: 400;
+}
+
+.contacts .img-contacts {
+	padding-left: 20px;
+}
+
+.contacts .img-contacts img{
+	width: 22px;
+	padding-right: 9px;
+}
+
+.contacts a {
+	color: #00a6fb;
+}
+
 @media (max-width: 991px) {
 	
 	.nav .nav-item:first-child {
@@ -294,6 +323,10 @@ header {
     .shares .lease, .shares .discount, .shares .hookah {
     	font-size: 30px;
     }
+
+    .contacts h2 {
+    	padding-top: 0px;
+    }
 }
 
 @media (max-width: 766px) {
@@ -314,4 +347,20 @@ header {
     .shares .shares-img-size p {
     	margin-bottom: 0;
     }
+
+    .contacts h2 {
+	    padding-top: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+
+	header .button-order {
+		width: auto;
+		padding: 13px 4px;
+	}
+
+	header .actions {
+	    margin-left: 10px;
+	}
 }
