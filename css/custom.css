@@ -37,6 +37,7 @@ h1 {
 }
 
 h2 {
+	font-family: 'FiraSans';
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 58px;
@@ -233,6 +234,89 @@ header {
 	opacity: 1;
 }
 
+.shares {
+	height: 600px;
+	color: #f6f7f8;
+	background-color: #000000;
+}
+
+.shares h2 {
+	font-weight: 700;
+	text-align: center;
+}
+
+.shares .col-md-4 {
+	padding-bottom: 30px;
+} 
+
+.shares .shares-img-size {
+	height: 300px;
+	padding: 0px 10px;
+}
+
+.shares .lease {
+	background: url(../img/rectangle-shares-lease.png) no-repeat;
+	background-size: cover;
+}
+
+.shares .discount {
+	background: url(../img/rectangle-shares-discount.png) no-repeat;
+	background-size: cover;
+}
+
+.shares .hookah {
+	background: url(../img/rectangle-shares-hookah.png) no-repeat;
+	background-size: cover;
+}
+
+.shares .lease, .shares .discount, .shares .hookah {
+	padding: 63px 15px;
+	font-size: 40px;
+	font-family: 'FiraSans';
+	font-weight: 700;
+	text-align: center;
+}
+
+.shares .shares-info {
+	font-family: 'OpenSans';
+	font-weight: 400;
+	text-align: center;
+}
+
+.contacts {
+	color: #0a052e;
+	padding: 120px 0;
+}
+
+.contacts h2 {
+	font-weight: 700;
+	color: #0a052e;
+}
+
+.contacts p {
+	font-family: 'OpenSans';
+	font-weight: 400;
+}
+
+.contacts .img-contacts {
+	padding-left: 20px;
+}
+
+.contacts .img-contacts img{
+	width: 22px;
+	padding-right: 9px;
+}
+
+.contacts a {
+	color: #00a6fb;
+}
+
+.order {
+	background: url(../img/form.jpg) no-repeat;
+	background-size: cover;
+	height: 600px;  
+}
+
 @media (max-width: 991px) {
 	
 	.nav .nav-item:first-child {
@@ -259,6 +343,14 @@ header {
 	.block-2, .block-4, .block-6 {
     	padding-top: 159.5%;
     }
+
+    .shares .lease, .shares .discount, .shares .hookah {
+    	font-size: 30px;
+    }
+
+    .contacts h2 {
+    	padding-top: 0px;
+    }
 }
 
 .menu {
@@ -277,4 +369,33 @@ header {
 	.block-2, .block-4, .block-6 {
     	padding-top: 164.5%;
     }
+
+    .shares {
+    	height: 100%;
+    }
+
+    .shares .lease, .shares .discount, .shares .hookah {
+	    height: auto;
+    	padding: 40px 15px;
+    }
+
+    .shares .shares-img-size p {
+    	margin-bottom: 0;
+    }
+
+    .contacts h2 {
+	    padding-top: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+
+	header .button-order {
+		width: auto;
+		padding: 13px 4px;
+	}
+
+	header .actions {
+	    margin-left: 10px;
+	}
 }
