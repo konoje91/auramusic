@@ -191,7 +191,7 @@ header {
 
 }
 
-.block-1-img, .block-2-img, .block-3-img, .block-4-img, .block-5-img, .block-6-img {
+.block-1-img, .block-2-img, .block-3-img, .block-4-img, .block-5-img, .block-6-img, .block-7-img, .block-8-img {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -230,6 +230,14 @@ header {
 	background-image: url(../img/rectangle-14.jpg);
 }
 
+.block-7-img {
+	background-image: url(../img/group-5.jpg);
+}
+
+.block-8-img {
+	background-image: url(../img/photo-2.jpg);
+}
+
 .block-1-img:hover, .block-2-img:hover, .block-3-img:hover, .block-4-img:hover, .block-5-img:hover, .block-6-img:hover {
 	opacity: 1;
 }
@@ -245,7 +253,7 @@ header {
 	text-align: center;
 }
 
-.shares .col-md-4 {
+.shares .col-md-3 {
 	padding-bottom: 30px;
 } 
 
@@ -269,9 +277,14 @@ header {
 	background-size: cover;
 }
 
-.shares .lease, .shares .discount, .shares .hookah {
+.shares .lanch {
+	background: url(../img/rectangle-shares-lanch.png) no-repeat;
+	background-size: cover;
+}
+
+.shares .lease, .shares .discount, .shares .hookah, .shares .lanch {
 	padding: 63px 15px;
-	font-size: 40px;
+	font-size: 30px;
 	font-family: 'FiraSans';
 	font-weight: 700;
 	text-align: center;
@@ -344,8 +357,8 @@ header {
     	padding-top: 159.5%;
     }
 
-    .shares .lease, .shares .discount, .shares .hookah {
-    	font-size: 30px;
+    .shares .lease, .shares .discount, .shares .hookah, .shares .lanch {
+    	font-size: 25px;
     }
 
     .contacts h2 {
@@ -447,7 +460,7 @@ footer .actions {
     	height: 100%;
     }
 
-    .shares .lease, .shares .discount, .shares .hookah {
+    .shares .lease, .shares .discount, .shares .hookah, .shares .lanch {
 	    height: auto;
     	padding: 40px 15px;
     }
