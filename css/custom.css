@@ -419,6 +419,10 @@ header {
 	text-align: center;
 }
 
+.order .complete-message {
+	display: none;
+}
+
 footer {
 	height: 120px;
 	background-color: #000000;
