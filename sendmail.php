@@ -1,4 +1,6 @@
 <?php
+error_reporting(0);
+
 $mailto = "aura.krd@yandex.ru";
 
 $name = trim(htmlentities($_POST['name'], ENT_QUOTES, "utf-8"));
@@ -9,7 +11,7 @@ $errors = Array();
 
 
 if(empty($name)) $errors[0] = 1;
-if(empty($phone) || !preg_match("/^((\+?7|8)[ \-] ?)?((\(\d{3}\))|(\d{3}))?([ \-])?(\d{3}[\- ]?\d{2}[\- ]?\d{2})$/i", $phone)) $errors[1] = 1;
+if(empty($phone)) $errors[1] = 1;
 
 
 if(count($errors)) {

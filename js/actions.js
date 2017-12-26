@@ -19,8 +19,8 @@ $(document).ready(function() {
             		$('.order .complete-message').show();
                 } else {
                     var errors = data.split('|');
-                    if(errors[0] == '1') $('input[name="name"]', form).css('border-color', 'red');
-                    if(errors[1] == '1') $('input[name="phone"]', form).css('border-color', 'red');
+                    if(errors[0] == '1') $('input[name="name"]', form).css('border', '1px solid red');
+                    if(errors[1] == '1') $('input[name="phone"]', form).css('border', '1px solid red');
                 }
             }
         });
