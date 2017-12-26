@@ -13,7 +13,7 @@ if(empty($phone) || !preg_match("/^((\+?7|8)[ \-] ?)?((\(\d{3}\))|(\d{3}))?([ \-
 
 
 if(count($errors)) {
-    echo $errors[0].'|'.$errors[1].'|'.$errors[2];
+    echo $errors[0].'|'.$errors[1];
 } else {
     $to=$mailto;
     $subject="AURA LOUNGE | Запрос с сайта";
